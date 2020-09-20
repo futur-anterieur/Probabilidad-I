@@ -1,0 +1,46 @@
+---
+title: "Básicos_de_R"
+author: "Zyanya Tanahara"
+date: "9/20/2020"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Paquetes
+### Instalar paquetes
+
+Para instalar paquetes se utiliza la función *install.packages*. No hay que olvidar el uso de dobles comillas en la sintaxis.
+Se puede instalar más de un paquete al mismo tiempo.
+
+```{r instalar paquetes}
+# install.packages(c("ggplot2", "swirl"))
+# install.packages("swirl")                
+
+```
+
+En R Studio también tienen la opción de usar la pestaña Packages para seleccionar directamente el paquete que quieren instalar.
+
+
+### Cargar paquetes
+
+Usualmente tienen que cargar los paquetes para poder usarlos, esto se hace con la función library(). Notemos que en este caso la sintaxis es sin comillas
+
+```{r cargar paquetes}
+library(swirl)
+library (ggplot2)
+```
+
+
+### Paquetes útiles para instalar
+```{r paquetes útiles}
+# install.packages("swirl")
+# install.packages("knitr")
+# install.packages("rmarkdown")
+
+```
+
