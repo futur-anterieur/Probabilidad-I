@@ -1,1 +1,2 @@
-# Notas de R para el curso Probabilidad-I 2021-1
+# Notas de R para el curso Probabilidad I 
+Semestre 2021-1
