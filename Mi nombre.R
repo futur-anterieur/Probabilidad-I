@@ -1,1 +1,1 @@
-Alumno: Zyanya Martínez Tanahara
+Alumno: Zyanya Irais Martínez Tanahara
