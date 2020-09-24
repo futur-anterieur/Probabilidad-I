@@ -3,10 +3,10 @@ title: "Básicos_de_R"
 author: "Zyanya Tanahara"
 date: "9/25/2020"
 output:
+  pdf_document: default
+  word_document: default
   html_document:
     df_print: paged
-  word_document: default
-  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -178,4 +178,9 @@ x <- data.frame(peras = 1:4, manzanas = c(T, T, F, F))
 
 Ejercicio. Si quieres repasar lo que vimos, haz los ejercicios 1, 3, 4 de swirl.
 Ejercicio. Haz los ejercicios 6, 7 y 8 de swirl. 
+
+## Referencias
+R Programming for Data Science de Roger D. Peng  
+Se puede conseguir gratis en el siguiente enlace  
+https://leanpub.com/rprogramming
 
