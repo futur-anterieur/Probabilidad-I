@@ -4,8 +4,8 @@ author: "Escribe tu nombre"
 date: "Fecha de entrega: Viernes 2 de Octubre"
 output:
   
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
