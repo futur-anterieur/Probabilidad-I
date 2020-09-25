@@ -3,8 +3,8 @@ title: "Básicos_de_R"
 author: "Zyanya Tanahara"
 date: "9/25/2020"
 output:
-  pdf_document: default
   word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -61,7 +61,7 @@ Podemos conocer la clase de un objeto usando la función class()
 ### Vectores
 Contienen *objetos de la misma clase*. La excepción es una lista, que puede tener objetos de diferentes clases.
 
-Para crear un objeto de tipo vector vacío se usa la función vector(). Para crear un vector dando sus elementos se usa c(x,y,z,...). La exepción a esto son las series, se asignan directamente.
+Para crear un objeto de tipo vector vacío se usa la función vector(). Para crear un vector dando sus elementos se usa c(x, y, z,...). La excepción a esto son las series, se asignan directamente.
 
 ```{r vectors}
 a <- c(1,2,3)
